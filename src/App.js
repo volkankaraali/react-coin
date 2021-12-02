@@ -1,24 +1,50 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import { ChakraProvider, extendTheme } from "@chakra-ui/react"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { CoinProvider } from './context/CoinContext';
+import Home from './pages/Home';
+import Detail from './pages/Detail';
+import ScrollTopButton from './components/ScrollTopButton';
+
 
 function App() {
+
+  const theme = extendTheme({
+    colors: {
+      brand: {
+        100: "#EDF2F4",
+      },
+    },
+  })
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ChakraProvider theme={theme}>
+      <CoinProvider>
+        <Router>
+
+
+          <Nav />
+
+          <div className="main h-full">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/detail/:id" element={<Detail />} />
+            </Routes>
+          </div>
+
+          <ScrollTopButton />
+          <Footer />
+
+        </Router>
+      </CoinProvider>
+
+    </ChakraProvider>
+
+
   );
 }
 

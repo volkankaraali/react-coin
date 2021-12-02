@@ -1,0 +1,150 @@
+
+{
+        "usd": {
+          "symbol": "$"
+        },
+        "btc": {
+            "symbol": "₿"
+        },
+        "eth": {
+            "symbol": "ETH"
+        },
+        "ltc": {
+            "symbol": "LTC"
+        },
+        "bch": {
+            "symbol": "BCH"
+        },
+        "bnb": {
+            "symbol": "BNB"
+        },
+        "eos": {
+            "symbol": "EOS"
+        },
+        "xrp": {
+            "symbol": "XRP"
+        },
+        "aud": {
+          "symbol": "AU$"
+        },
+        "brl": {
+          "symbol": "R$"
+        },
+        "cad": {
+          "symbol": "CA$"
+        },
+        "chf": {
+          "symbol": "CHF"
+        },
+        "clp": {
+          "symbol": "CL$"
+        },
+        "cny": {
+          "symbol": "CN¥"
+        },
+        "czk": {
+          "symbol": "Kč"
+        },
+        "dkk": {
+          "symbol": "Dkr"
+        },
+        "eur": {
+          "symbol": "€"
+        },
+        "gbp": {
+          "symbol": "£"
+        },
+        "hkd": {
+          "symbol": "HK$"
+        },
+        "huf": {
+          "symbol": "Ft"
+        },
+        "idr": {
+          "symbol": "Rp"
+        },
+        "ils": {
+          "symbol": "₪"
+        },
+        "inr": {
+          "symbol": "Rs"
+        },
+        "jpy": {
+          "symbol": "¥"
+        },
+        "krw": {
+          "symbol": "₩"
+        },
+        "lkr":{
+            "symbol": "₨"
+        },
+        "mmk": {
+            "symbol": "K"
+        },
+        "mxn": {
+          "symbol": "MX$"
+        },
+        "myr": {
+          "symbol": "RM"
+        },
+        "ngn": {
+            "symbol": "₦"
+        },
+        "nok": {
+          "symbol": "Nkr"
+        },
+        "nzd": {
+          "symbol": "NZ$"
+        },
+        "php": {
+          "symbol": "₱"
+        },
+        "pkr": {
+          "symbol": "PKRs"
+        },
+        "pln": {
+          "symbol": "zł"
+        },
+        "rub": {
+          "symbol": "RUB"
+        },
+        "sar": {
+            "symbol": "SR"
+        },
+        "sek": {
+          "symbol": "Skr"
+        },
+        "sgd": {
+          "symbol": "S$"
+        },
+        "thb": {
+          "symbol": "฿"
+        },
+        "try": {
+          "symbol": "₺"
+        },
+        "twd": {
+          "symbol": "NT$"
+        },
+        "uah": {
+            "symbol": "₴"
+        },
+        "vef": {
+            "symbol": "Bs"
+        },
+        "vnd": {
+            "symbol": "₫"
+        },
+        "zar": {
+          "symbol": "R"
+        },
+        "ars": {
+          "symbol": "AR$"
+        },
+        "aed": {
+          "symbol": "AED"
+        },
+        "bdt": {
+          "symbol": "Tk"
+        }
+}
