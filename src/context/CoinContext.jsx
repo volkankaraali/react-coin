@@ -1,7 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import CoinService from "../services/coinServices";
 import currencies from "../currencySymbols.json"
-import { useFocusEffect } from "@chakra-ui/hooks";
 const CoinContext = createContext();
 
 export const CoinProvider = ({ children }) => {
